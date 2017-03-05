@@ -33,6 +33,6 @@ image_path = 'test_image.png' # 変換する画像を指定
 学習データの前処理、学習のコードは今後公開の予定です。
 
 ## 実行例
-![出漁サンプル.png](C:\Users\oakiyama\Pictures\出漁サンプル.png)
+![実行例](http://i.imgur.com/rasaYQi.png)
 ## ライセンス
 本ライブラリのライセンスは `MIT License` になります。
