@@ -38,12 +38,13 @@ image_path = 'test_image.png' # 変換する画像を指定
 ## 学習
 注) 現在アップしているデータセットは実際に学習に用いたものではありません
 ### Steps
-1. データの前処理
+1. **データの前処理**
     ```bash
     python process_data.py
     ```
-    
     アスキーアートのデータを保存しているテキストファイル (data/aa_sample.ast) を学習データに変換します。データはdata/traindata/に出力されます。
+    <br>
+
 2. モデルの学習
     ```bash
     python deepaa_train.py
