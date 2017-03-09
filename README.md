@@ -34,5 +34,20 @@ image_path = 'test_image.png' # 変換する画像を指定
 
 ## 実行例
 ![実行例](http://i.imgur.com/rasaYQi.png)
+
+## 学習
+注) 現在アップしているデータセットは実際に学習に用いたものではありません
+### Steps
+1. データの前処理
+    ```
+    python process_data.py
+    ```
+    アスキーアートのデータを保存しているテキストファイル (data/aa_sample.ast) を学習データに変換します。データはdata/traindata/に出力されます。
+2. モデルの学習
+    ```
+    python deepaa_train.py
+    ```
+    モデルの学習を実行します。学習したモデルはmodel/model_test/に保存されます。
+
 ## ライセンス
 本ライブラリのライセンスは `MIT License` になります。
