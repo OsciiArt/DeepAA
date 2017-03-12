@@ -1,6 +1,11 @@
 DeepAA
 ====
 
+本レポジトリについての記事を書きました。
+よろしければご覧ください。
+[ディープラーニングでアスキーアートを作る](http://qiita.com/OsciiArt/items/325714d8ab3f2b482ced)
+This is an article about this repository. Sorry, it's only in Japanese, but you can see some sample outputs here.
+
 ## 概要
 ディープラーニング技術を用いて画像をアスキーアートに変換します。
 
