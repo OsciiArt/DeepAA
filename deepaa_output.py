@@ -5,6 +5,8 @@
 画像をアスキーアートに変換する
 """
 
+import argparse
+import os
 from keras.models import model_from_json
 import pickle
 import numpy as np
@@ -18,6 +20,15 @@ image_path = 'test_image.png' # 変換する画像を指定
 image_width = 550 # 画像サイズの変換設定. 変換後の横幅を入力する. ''なら変換しない. 1st setting: 550
 model_folder = 'model_01/' # 変換用のモデルを選択
 multi_output = False # 1ピクセルずつ縦にずらして18個出力
+
+parser = argparse.ArgumentParser(prog='DeepAA')
+parser.add_argument('--image', '-i', default=image_path)
+parser.add_argument('--width', '-w', default=image_width)
+parser.add_argument('--multioutput', '-mo', default=multi_output)
+args = parser.parse_args()
+image_path = args.image
+image_width = args.width
+multi_output = args.multioutput
 
 # ニューラルネットモデル読み込み
 json_string = open('model/' + model_folder + 'model.json').read()
