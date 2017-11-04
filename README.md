@@ -4,7 +4,7 @@ DeepAA
 This is convolutional neural networks generating ASCII art.
 This repositry is under the construction.
 
-![image sample](https://github.com/OsciiArt/DeepAA/output/sample.png)
+![image sample](https://github.com/OsciiArt/DeepAA/blob/master/sample%20images/images%20generated%20with%20CNN/21%20generated.png)
 
 ## Requirements
 
