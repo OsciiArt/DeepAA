@@ -55,6 +55,7 @@ print("class index of 1B space:", space)
 mergin = (input_shape[0] - 18) // 2
 img = Image.open(image_path)
 orig_width, orig_height = img.size
+if new_width==0: new_width = orig_width
 new_height = int(img.size[1] * new_width / img.size[0])
 img = img.resize((new_width, new_height), Image.LANCZOS)
 img = np.array(img)
