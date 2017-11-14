@@ -14,6 +14,7 @@ This repositry is under the construction.
 + Pillow (4.2.1)
 + Pandas (0.18.0)
 + Scikit-learn (0.19.0)
++ h5py (2.7.1)
 + model's weight (download it from [here](https://drive.google.com/open?id=0B90WglS_AQWebjBleG5uRXpmbUE) and place it in dir `model`.)
 ## How to use
 please change the line 15 of `output.py `
