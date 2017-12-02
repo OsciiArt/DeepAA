@@ -10,8 +10,8 @@ import os
 
 
 # parameters
-model_path = "model/model.json"
-weight_path = "model/weight.hdf5"
+model_path = "model/model.json" # or "model/model_light.json"
+weight_path = "model/weight.hdf5" # or "model/weight_light.json"
 image_path = 'sample images/original images/21 original.png' # put the path of the image that you convert.
 new_width = 0 # adjust the width of the image. the original width is used if new_width = 0.
 input_shape = [64, 64, 1]
