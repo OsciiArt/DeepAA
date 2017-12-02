@@ -2,10 +2,16 @@ DeepAA
 ====
 
 This is convolutional neural networks generating ASCII art.
-This repositry is under the construction.
+This repositry is under construction.
+
+This work is accepted by [NIPS 2017 Workshop, Machine Learning for Creativity and Design](https://nips2017creativity.github.io/)
+The paper: [ASCII Art Synthesis with Convolutional Networks](https://nips2017creativity.github.io/doc/ASCII_Art_Synthesis.pdf)
 
 ![image sample](https://github.com/OsciiArt/DeepAA/blob/master/sample%20images/images%20generated%20with%20CNN/21%20generated.png)
 
+
+## Change log
++ 2017/12/2 added light model
 ## Requirements
 
 + TensorFlow (1.3.0)
@@ -28,5 +34,10 @@ You should use a grayscale line image.
 then run `output.py `.
 converted images will be output at `output/ `.
 
+You can select light model by change the line 13, 14  of `output.py ` into
+```
+model_path = "model/model_light.json"
+weight_path = "model/weight_light.hdf5"
+```
 ## License
 The pre-trained models and the other files we have provided are licensed under the MIT License.
