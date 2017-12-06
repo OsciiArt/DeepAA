@@ -11,11 +11,10 @@ import numpy as np
 np.random.seed(42)
 import pandas as pd
 from os import path
+from PIL import Image
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import math
-from keras.optimizers import Adam
-from data_utils import *
 from multiprocessing import Pool
 
 
@@ -158,7 +157,7 @@ def train():
     learning_rate = 0.001
     df_path = "data/data_500.csv"
     char_list_path = "data/char_list_500.csv"
-    img_dir = "data/image_selected/"
+    img_dir = "data/image_500/"
 
     # load text
     df = pd.read_csv(df_path, encoding="cp932")

@@ -22,6 +22,9 @@ The paper: [ASCII Art Synthesis with Convolutional Networks](https://nips2017cre
 + Scikit-learn (0.19.0)
 + h5py (2.7.1)
 + model's weight (download it from [here](https://drive.google.com/open?id=0B90WglS_AQWebjBleG5uRXpmbUE) and place it in dir `model`.)
++ training data (additional, download it from  [here](https://drive.google.com/open?id=0B90WglS_AQWebjBleG5uRXpmbUE), extract it and place the extracted directory in dir `data`.)
+)
+
 ## How to use
 please change the line 15 of `output.py `
 
