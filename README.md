@@ -7,7 +7,7 @@ This repositry is under construction.
 This work is accepted by [NIPS 2017 Workshop, Machine Learning for Creativity and Design](https://nips2017creativity.github.io/)
 The paper: [ASCII Art Synthesis with Convolutional Networks](https://nips2017creativity.github.io/doc/ASCII_Art_Synthesis.pdf)
 
-[Web application (using previous version model)](https://tar-bin.github.io/DeepAAonWeb/)
+[Web application (using previous version model)](https://tar-bin.github.io/DeepAAonWeb/) (by [tar-bin](https://github.com/tar-bin))
 
 ![image sample](https://github.com/OsciiArt/DeepAA/blob/master/sample%20images/images%20generated%20with%20CNN/21%20generated.png)
 
