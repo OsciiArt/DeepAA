@@ -2,7 +2,7 @@ DeepAA
 ====
 
 This is convolutional neural networks generating ASCII art.
-This repositry is under construction.
+This repository is under construction.
 
 This work is accepted by [NIPS 2017 Workshop, Machine Learning for Creativity and Design](https://nips2017creativity.github.io/)
 The paper: [ASCII Art Synthesis with Convolutional Networks](https://nips2017creativity.github.io/doc/ASCII_Art_Synthesis.pdf)
