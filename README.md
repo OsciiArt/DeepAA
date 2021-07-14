@@ -1,7 +1,7 @@
 DeepAA
 ====
 
-This is convolutional neural networks generating ASCII art.
+This is convolutional neural network that generates ASCII art from an image.
 This repository is under construction.
 
 This work is accepted by [NIPS 2017 Workshop, Machine Learning for Creativity and Design](https://nips2017creativity.github.io/)
@@ -28,7 +28,7 @@ The paper: [ASCII Art Synthesis with Convolutional Networks](https://nips2017cre
 )
 
 ## How to use
-please change the line 15 of `output.py `
+please change the line 15 of `output.py`
 
 ```
 image_path = 'sample images/original images/21 original.png' # put the path of the image that you convert.
@@ -36,10 +36,10 @@ image_path = 'sample images/original images/21 original.png' # put the path of t
 into the path of image file that you use.
 You should use a grayscale line image.
 
-then run `output.py `.
-converted images will be output at `output/ `.
+then run `output.py`.
+converted images will be output at `output/`.
 
-You can select light model by change the line 13, 14  of `output.py ` into
+You can select light model by change the line 13, 14  of `output.py` into
 ```
 model_path = "model/model_light.json"
 weight_path = "model/weight_light.hdf5"
