@@ -43,7 +43,7 @@ char_list = pd.read_csv(char_list_path, encoding="cp932")
 print("len(char_list)", len(char_list))
 # print(char_list.head())
 char_list = char_list[char_list['frequency']>=10]
-char_list = char_list['char'].as_matrix()
+char_list = char_list['char'].to_numpy()
 
 for k, v in enumerate(char_list):
     if v==" ":
